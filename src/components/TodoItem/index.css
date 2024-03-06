@@ -1,0 +1,13 @@
+/* Write your CSS here */
+.button {
+  color: red;
+  border-style: solid;
+  border-color: red;
+  margin:5px;
+  background-color: white;
+  border-radius: 5px;
+
+}
+.lielestyle {
+  margin: 5px;
+}
