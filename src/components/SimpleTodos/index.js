@@ -53,11 +53,12 @@ class SimpleTodos extends Component {
   }
 
   render() {
+    const {TodoList} = this.state
     return (
       <div className="TodoContainer">
         <h1>Simple Todos</h1>
         <ul className="ulstyle">
-          {initialTodosList.map(eachItem => (
+          {TodoList.map(eachItem => (
             <TodoItem
               todo={eachItem}
               key={eachItem.id}
